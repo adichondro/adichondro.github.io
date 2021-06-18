@@ -13,7 +13,7 @@ const Hero = (props) => (
         Welcome to my Personal <br />
         Portfolio
       </HeroTitle>
-      <Button onClick={() => window.location = 'https://medium.com/@chondroa'}>
+      <Button onClick={() => window.location = 'https://medium.com/@chondroa/'}>
         <FaMedium />
         <Hr />
         Medium

@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'Facial Expression Recognition',
-    description: "This project aims to classify the emotion on a person's face into one of seven categories, using deep convolutional neural networks. The model is trained on the FER-2013 dataset which was published on International Conference on Machine Learning (ICML). This dataset consists of 35887 grayscale, 48x48 sized face images with seven emotions - angry, fearful, happy, neutral, sad and surprised.",
+    description: "This project aims to classify the emotion on a person's face into one of six categories, using deep convolutional neural networks. The model is trained on the FER-2013 dataset which was published on International Conference on Machine Learning (ICML). This dataset consists of 35887 grayscale, 48x48 sized face images with six emotions - angry, fearful, happy, neutral, sad and surprised.",
       image: '/images/1.jpg',
       tags: ['Python', 'Keras', 'Open CV'],
     source: 'https://github.com/adichondro/FacialExpression-Recognition',
