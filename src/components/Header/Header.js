@@ -3,9 +3,9 @@ import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
 
-import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './headerStyles';
+import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
 
-const header = () => (
+const Header = () => (
   <Container>
     <Div1>
       <Link href="/">
@@ -45,4 +45,4 @@ const header = () => (
   </Container>
 );
 
-export default header;
+export default Header;

@@ -2,9 +2,9 @@ import React from 'react';
 import { FaMedium } from 'react-icons/fa';
 //import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
-import { LeftSection, RightSection, Img, HeroNameText, HeroInfo, HeroTitle, HeroSection, Hr } from './heroStyles';
+import { LeftSection, RightSection, Img, HeroNameText, HeroInfo, HeroTitle, HeroSection, Hr } from './HeroStyles';
 
-const hero = (props) => (
+const Hero = (props) => (
   <HeroSection row nopadding>
     <LeftSection>
       <HeroTitle main center>
@@ -31,4 +31,4 @@ const hero = (props) => (
 
 );
 
-export default hero;
+export default Hero;
