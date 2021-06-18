@@ -2,7 +2,7 @@ import React from 'react';
 import { FaMedium } from 'react-icons/fa';
 //import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
-import { LeftSection, RightSection, Img, HeroNameText, HeroInfo, HeroTitle, HeroSection, Hr } from './HeroStyles';
+import { LeftSection, RightSection, Img, HeroNameText, HeroInfo, HeroTitle, HeroSection, Hr } from './heroStyles';
 
 const Hero = (props) => (
   <HeroSection row nopadding>
