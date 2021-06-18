@@ -4,7 +4,7 @@ import { FaMedium } from 'react-icons/fa';
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection, RightSection, Img, HeroNameText, HeroInfo, HeroTitle, HeroSection, Hr } from './heroStyles';
 
-const Hero = (props) => (
+const hero = (props) => (
   <HeroSection row nopadding>
     <LeftSection>
       <HeroTitle main center>
@@ -31,4 +31,4 @@ const Hero = (props) => (
 
 );
 
-export default Hero;
+export default hero;
