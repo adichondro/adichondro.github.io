@@ -13,12 +13,11 @@ const Hero = (props) => (
         Welcome to my Personal <br />
         Portfolio
       </HeroTitle>
-      <Button onClick={() => window.location = 'https://medium.com/'}>
+      <Button onClick={() => window.location.href = 'https://medium.com/'}>
         <FaMedium />
         <Hr />
         Medium
       </Button>
-
     </LeftSection>
     <RightSection>
       <Img src='/images/me.jpg' />
