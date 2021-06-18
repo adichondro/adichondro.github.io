@@ -14,7 +14,7 @@ export const projects = [
     image: '/images/2.jpg',
     tags: ['Kotlin', 'Python', 'Keras', 'Tensorflow'],
     source: 'https://github.com/adichondro/Corn-Leaf-Diseases-Detection-App',
-    visit: '#',
+    visit: '#projects',
     id: 1,
   },
 
