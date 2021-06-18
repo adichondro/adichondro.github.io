@@ -1,48 +1,36 @@
-import Link from 'next/link';
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
-import { DiCssdeck } from 'react-icons/di';
+import { IconContext } from "react-icons";
+import { FaMedium } from 'react-icons/fa';
+//import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+import Button from '../../styles/GlobalComponents/Button';
+import { LeftSection, RightSection, Img, HeroNameText, HeroInfo, HeroTitle, HeroSection, Hr } from './HeroStyles';
 
-import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
+const Hero = (props) => (
+  <HeroSection row nopadding>
+    <LeftSection>
+      <HeroTitle main center>
+        Hi! Chondro Here,  <br />
+        Welcome to my Personal <br />
+        Portfolio
+      </HeroTitle>
+      <Button onClick={() => window.location = 'https://medium.com/'}>
+        <FaMedium />
+        <Hr />
+        Medium
+      </Button>
 
-const Header = () =>  (
-  <Container>
-    <Div1>
-      <Link href="/">
-        <a style={{ display: 'flex', alignItems: 'center', color:"white" }}>
-          <DiCssdeck size="3rem" /> <span>Portfolio</span>
-        </a>
-      </Link>
-    </Div1>
-    <Div2>
-      <li>
-        <Link href="#projects">
-          <NavLink>Projects</NavLink>
-        </Link>
-      </li>
-      <li>
-        <Link href="#tech">
-          <NavLink>Technologies</NavLink>
-        </Link>
-      </li>        
-      <li>
-        <Link href="#about">
-          <NavLink>About</NavLink>
-        </Link>
-      </li>        
-    </Div2>
-      <Div3>
-        <SocialIcons href="https://google.com">
-          <AiFillGithub size="3rem" />
-        </SocialIcons>
-        <SocialIcons href="https://google.com">
-          <AiFillLinkedin size="3rem" />
-        </SocialIcons>
-        <SocialIcons href="https://google.com">
-          <AiFillInstagram size="3rem"/>
-        </SocialIcons>
-      </Div3>
-    </Container>
+    </LeftSection>
+    <RightSection>
+      <Img src='/images/me.jpg' />
+      <HeroNameText>
+        Adi Chondro
+      </HeroNameText>
+      <HeroInfo>
+        A Web & Mobile Developer
+      </HeroInfo>
+    </RightSection>
+  </HeroSection>
+
 );
 
-export default Header;
+export default Hero;
