@@ -12,7 +12,7 @@ const Hero = (props) => (
         Welcome to my Personal <br />
         Portfolio
       </HeroTitle>
-      <Button onClick={() => window.location.href = 'https://medium.com/'}>
+      <Button onClick={() => window.open("https://medium.com/@chondroa", "_blank")}>
         <FaMedium />
         <Hr />
         Medium
