@@ -4,7 +4,7 @@ import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag,
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 
-const Projects = ({ deviceType }) => (
+const Projects = () => (
   <Section id="projects">
     <SectionDivider />
     <SectionTitle main>Projects</SectionTitle>
@@ -14,7 +14,7 @@ const Projects = ({ deviceType }) => (
         <BlogCard key={id}>
           <Img src={image} />
           <TitleContent>
-            <HeaderThree title>{title}</HeaderThree>
+            <HeaderThree title="true">{title}</HeaderThree>
             <Hr />
           </TitleContent>
           <CardInfo>{description}</CardInfo>
