@@ -22,6 +22,7 @@ row-gap: 3rem;
 `
 export const BlogCard = styled.div`
   border-radius: 10px;
+  padding: 10px;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
   width: 400px;
@@ -38,6 +39,7 @@ export const TitleContent = styled.div`
 
 export const HeaderThree = styled.h3`
   font-weight: 500;
+  height: 80px;
   letter-spacing: 2px;
   color: #9cc9e3;
   padding: .5rem 0;
