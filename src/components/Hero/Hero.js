@@ -19,7 +19,7 @@ const Hero = (props) => (
       </Button>
     </LeftSection>
     <RightSection>
-      <IImg src='/images/me.jpg' />
+      <Img src='/images/me.jpg' />
       <HeroNameText>
         Adi Chondro
       </HeroNameText>

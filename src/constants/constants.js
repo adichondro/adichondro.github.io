@@ -18,7 +18,7 @@ export const projects = [
     id: 1,
   },
     {
-    title: 'Promotion Landing Page',
+    title: 'Promotions Landing Page',
     description: "Developed a simple landing page to effectively promote the latest products and services of a stock brokerage firm, targeting potential customers on the POST Pro (Online Trading Application) platform. The landing page provides clear and concise communication of key offerings, guiding prospective clients seamlessly.",
     image: '/images/3.jpg',
     tags: ['Next.js', 'TypeScript'],
