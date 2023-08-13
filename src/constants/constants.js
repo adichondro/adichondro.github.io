@@ -17,6 +17,24 @@ export const projects = [
     visit: '#projects',
     id: 1,
   },
+    {
+    title: 'Promotion Landing Page',
+    description: "Developed a simple landing page to effectively promote the latest products and services of a stock brokerage firm, targeting potential customers on the POST Pro (Online Trading Application) platform. The landing page provides clear and concise communication of key offerings, guiding prospective clients seamlessly.",
+    image: '/images/3.jpg',
+    tags: ['Next.js', 'TypeScript'],
+    source: '#projects',
+    visit: '#projects',
+    id: 1,
+  },
+    {
+    title: 'KTP Extractor API',
+    description: "Developed a robust KTP (national ID card) extractor API designed to extract a comprehensive range of information while maintaining data integrity. This API seamlessly integrates into the registration feature of various products and services, enabling efficient and accurate data collection from users' ID cards to streamline the onboarding process",
+    image: '/images/4.jpg',
+    tags: ['Python', 'EasyOCR'],
+    source: '#projects',
+    visit: '#projects',
+    id: 1,
+  },
 
 
   // ADD HERE
@@ -27,5 +45,6 @@ export const TimeLineData = [
   { year: 2018, text: 'Worked as a Porgramming Lab Assistant', },
   { year: 2019, text: 'Worked as a Programming Lab Instructor', },
   { year: 2020, text: 'Graduated from Gunadarma University', },
+  { year: 2022, text: 'Worked as a Junior Software Engineer at Panin Sekuritas', },
 
 ];

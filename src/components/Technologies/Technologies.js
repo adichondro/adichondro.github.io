@@ -8,26 +8,26 @@ const Technologies = () =>  (
     <SectionDivider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've Worked with a Range a technologies in the web, mobile app, and machine learning development world.
+      I've Worked with a Range a technologies in the mobile app, web app, and machine learning development world.
     </SectionText>
     <List>
-      <ListItem>
-        <FaGlobe size="3rem" />
-        <ListContainer>
-          <ListTitle>Website</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            React.js and Laravel
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
       <ListItem>
         <FaMobileAlt size="3rem" />
         <ListContainer>
           <ListTitle>Mobile</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Kotlin and React Native
+            Flutter, React Native, Kotlin
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <FaGlobe size="3rem" />
+        <ListContainer>
+          <ListTitle>Website</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            React.js and Next.js
           </ListParagraph>
         </ListContainer>
       </ListItem>
